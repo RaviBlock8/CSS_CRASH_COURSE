@@ -1,0 +1,29 @@
+.container {
+  width: 500px;
+  height: 600px;
+  background: rgb(28, 110, 233);
+  position: absolute;
+  left: 30vw;
+}
+
+.box {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 24px;
+  width: 200px;
+  height: 150px;
+}
+
+.box1 {
+  background: rgb(241, 46, 46);
+}
+
+.box2 {
+  background: rgb(86, 212, 61);
+  position: absolute;
+  bottom: 0px;
+}
+
+.box3 {
+  background: rgb(235, 71, 199);
+}
