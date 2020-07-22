@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica;
+}
+
+/* space as an combinator selects all descendants elements */
+/*since p is an block level elements so its taking up whole space*/
+section p {
+  background: rgb(0, 217, 255);
+}
+
+/* > selectes immediate children*/
+section > p {
+  background: rgb(2, 165, 194);
+}
+
+/* + selects next adjacent siblling*/
+
+h1 + p {
+  background: rgb(1, 51, 59);
+}
+
+/* ~ selects all the next adjacent sibblings*/
+div ~ p {
+  background: rgb(216, 30, 145);
+}
