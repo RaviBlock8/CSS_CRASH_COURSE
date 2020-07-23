@@ -1,0 +1,17 @@
+.box .box1 {
+  width: 200px;
+  height: 200px;
+  background: rgb(248, 46, 46);
+  cursor: pointer;
+  /*To apply same transition property to all changes use all*/
+  transition: all 1s ease-out;
+}
+
+.box:hover {
+  width: 500px;
+  background: rgb(0, 140, 255);
+}
+
+.box1 {
+  transform: rotate(90);
+}
