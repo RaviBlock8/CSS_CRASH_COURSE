@@ -22,8 +22,15 @@
   background: rgb(86, 212, 61);
   position: absolute;
   bottom: 0px;
+  z-index: 100;
 }
 
 .box3 {
   background: rgb(235, 71, 199);
+  position: sticky;
+  top: 20px;
+}
+
+.lengthyBox {
+  height: 200vh;
 }

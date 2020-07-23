@@ -1,0 +1,16 @@
+.heading {
+  font-size: 50px;
+  width: 40vw;
+  color: rgb(0, 119, 255);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica;
+  text-shadow: 2px 5px #868686;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 10px 10px 15px #868686;
+}
